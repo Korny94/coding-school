@@ -1,0 +1,111 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(245, 245, 245);
+    min-height: 100vh;
+}
+
+li {
+    list-style: none;
+}
+
+.home {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+
+.home-icon {
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 1rem 0rem;
+}
+
+td {
+    padding: 1rem;
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+th {
+    font-size: clamp(2rem, 3vw + 1rem, 5rem);
+    background-color: rgb(173, 217, 255);
+    text-transform: uppercase;
+    color: maroon;
+    padding: 1rem 0rem;
+    margin: auto;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.indent {
+    text-indent: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+a {
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: clamp(2rem, 4vw + 1rem, 5rem);
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-size: clamp(1.9rem, 3.5vw + 1rem, 4.5rem);
+    font-weight: 500;
+    margin: 0;
+    color: blue;
+}
+
+h3 {
+    font-size: clamp(1.8rem, 3vw + 1rem, 4rem);
+    font-weight: 400;
+    margin: 0;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: clamp(1.7rem, 2.5vw + 1rem, 3.5rem);
+    font-weight: 300;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+h5 {
+    font-size: clamp(1.6rem, 2vw + 1rem, 3rem);
+    font-weight: 200;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: clamp(1.5rem, 1.5vw + 1rem, 2.5rem);
+    font-weight: 100;
+    margin: 0;
+    text-align: center;
+}
