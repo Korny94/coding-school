@@ -6,23 +6,20 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(245, 245, 245);
     min-height: 100vh;
+    padding: 0 1rem;
 }
 
-li {
-    list-style: none;
+table {
+    margin-bottom: 2rem;
 }
 
-.home {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    position: relative;
-    top: 2rem;
-    left: 2rem;
+hr {
+    border: .1px solid black;
 }
 
 .home-icon {
-    width: 50px;
+    width: 3rem;
+    padding: 1rem 0rem 0rem 0rem;
 }
 
 footer {
@@ -39,12 +36,14 @@ td {
 }
 
 th {
-    font-size: clamp(2rem, 3vw + 1rem, 5rem);
+    font-size: clamp(1.5rem, 2vw + 1rem, 3rem);
     background-color: rgb(173, 217, 255);
     text-transform: uppercase;
     color: maroon;
+    text-shadow: 0px 0px 1px white;
     padding: 1rem 0rem;
     margin: auto;
+    letter-spacing: .4rem;
 }
 
 .element {
@@ -70,34 +69,34 @@ a {
 }
 
 h1 {
-    font-size: clamp(2rem, 4vw + 1rem, 5rem);
+    font-size: clamp(2rem, 3vw + 1rem, 5rem);
     font-weight: 400;
     margin: 0;
 }
 
 h2 {
-    font-size: clamp(1.9rem, 3.5vw + 1rem, 4.5rem);
+    font-size: clamp(1.9rem, 2.7vw + 1rem, 4.5rem);
     font-weight: 500;
     margin: 0;
     color: blue;
 }
 
 h3 {
-    font-size: clamp(1.8rem, 3vw + 1rem, 4rem);
+    font-size: clamp(1.8rem, 2.4vw + 1rem, 4rem);
     font-weight: 400;
     margin: 0;
     text-decoration: underline;
 }
 
 h4 {
-    font-size: clamp(1.7rem, 2.5vw + 1rem, 3.5rem);
+    font-size: clamp(1.7rem, 2.1vw + 1rem, 3.5rem);
     font-weight: 300;
     margin: 0;
     background-color: rgb(245, 245, 245);
 }
 
 h5 {
-    font-size: clamp(1.6rem, 2vw + 1rem, 3rem);
+    font-size: clamp(1.6rem, 1.8vw + 1rem, 3rem);
     font-weight: 200;
     margin: 0;
     text-transform: uppercase;
@@ -108,4 +107,24 @@ h6 {
     font-weight: 100;
     margin: 0;
     text-align: center;
+}
+
+ul {
+    list
+}
+
+
+        /* --- LESSON3.HTML --- */
+
+.h1-l3 {
+    font-size: clamp(1rem, 1.5vw + 1rem, 2.5rem);
+}
+
+.li-indentl3{
+    padding-left: 4rem;
+}
+
+.ol-l3 {
+    color: red;
+    text-decoration: underline;
 }
