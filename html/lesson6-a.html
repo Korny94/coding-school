@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style-l1.css" rel="stylesheet">
+    <title>Lesson 6 - Link</title>
+</head>
+<body>
+    <header>
+        <nav>
+                <a href="/index.html" class="home">
+                    <img src="/images/home.png" alt="Home button" class="home-icon">
+                </a>
+        </nav>
+    </header>
+    <h1 class="h1">
+        Link &lt;a&gt;
+    </h1>
+    <table>
+        <tr>
+            <th>
+                Web
+            </th>
+            <th>
+                Html
+            </th>
+            <th>
+                Css
+            </th>
+        </tr>
+        <tr>
+            <td>
+                This is a link to <a href="https://google.com" target="_blank">Google.com</a>
+            </td>
+            <td>
+                <p>
+                    &lt;p&gt;
+                    <p class="indent">This is a link to <span class="bold">&lt;a href="</span>https://google.com<span class="bold">"&gt;</span>
+                    <br>
+                    Google.com<span class="bold">&lt;/a&gt;</span>
+                    </p>
+                    &lt;/p&gt;
+                </p>
+            </td>
+            <td>
+                <span class="bold">a {</span>
+                    <div class="indent">
+                        <a href="font-size.html">
+                            font-size</a>: 1rem;
+                        <br>
+                        <a href="font-weight.html">
+                        font-weight</a>: 400;
+                    </div>
+                <span class="bold">}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                This is a link to <a href="https://google.com" target="_blank" class="a-change">Google.com</a>, but I have changed the default link-color and -underline using CSS.
+            </td>
+            <td>
+                <p>
+                    &lt;p&gt;
+                    <p class="indent">This is a link to <span class="bold">&lt;a href="</span>https://google.com<span class="bold">"&gt;</span>
+                    <br>
+                    Google.com<span class="bold">&lt;/a&gt;</span>
+                    </p>
+                    &lt;/p&gt;
+                </p>
+            </td>
+            <td>
+                <span class="bold">a {</span>
+                    <div class="indent">
+                        <a href="color.html">
+                        color</a>: red;
+                        <br>
+                        <a href="text-decoration.html">
+                        text-decoration</a>: dotted underline;
+                    </div>
+                <span class="bold">}</span>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>
+                Description
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    When we want to make a link on our page, we use the &lt;a&gt; element. And inside the &lt;a&gt; element we put href="". 
+                </p>
+                <br>
+                <p>
+                    Inside the quotation marks is where we put our URL of choice.
+                </p>
+                <br>
+                <p>
+                    You can use as many &lt;a&gt; elements as you want per page.
+                </p>
+                <br>
+                <p>
+                    The &lt;a&gt; element needs to be closed by a &lt;/a&gt; after you have written your custom hyperlink. 
+                    <br>
+                </p>
+                <br>
+                <p>
+                    The text in between &lt;a&gt; and &lt;/a&gt; is the text that will be clickable.
+                </p>
+                <br>
+                <p>
+                    Here is an example: 
+                </p>
+                <br>
+                &lt;p&gt;
+                <p class="indent">This is a link to <span class="bold">
+                    &lt;a href="</span>https://google.com<span class="bold">"&gt;</span><em>Google.com</em><span class="bold">&lt;/a&gt;</span>
+                </p> 
+                &lt;/p&gt;
+                <br>
+                <br>
+                <hr>
+                <p>
+                    If you want the link to automatically be opened in a new tab, and not the default: Open in the same tab (target="_parent" or target="_self"), we use the "Target" attribute.
+                </p>
+                <br>
+                <p>
+                    To open the link automatically in a new tab we put the attribute target="_blank" inside the &lt;a&gt; element.
+                </p>
+                <br>
+                <p class="indent">
+                    &lt;a href="https://google.com" <span class="bold">target="_blank"</span>&gt;Click here!&lt;/a&gt;
+                </p>
+                <br>
+                <hr>
+                <p>
+                    Want to learn more about the "Anchor element &lt;a&gt;" at Developer.mozilla.org? Click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_top">here!</a>
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <th>
+            Video
+        </th>
+        <tr>
+
+        </tr>
+    </table>
+    <footer>
+        &copy; Copyright
+    </footer>
+</body>
+</html>

@@ -54,84 +54,81 @@
                 </ol>
             </td>
             <td>
-                <section class="element">
-                    <span>&lt;h1&gt;</span>
-                    <span class="indent">Top 5 ice-cream flavors</span> 
-                    <span>&lt;/h1&gt;</span>
-                    <span>
-                        &lt;ol&gt;
-                    </span>
+                <div class="element">
+                    <span class="bold">&lt;h1&gt;</span>
+                    <p class="indent">Top 5 ice-cream flavors</p> 
+                    <span class="bold">&lt;/h1&gt;</span>
+                    <br>
+                        <span class="bold">&lt;ol&gt;</span>
                     <span class="indent">
-                        &lt;li&gt;
+                        <span class="bold">&lt;li&gt;</span>
                     </span>
                     <span class="li-indentl3">
                         Vanilla
                     </span>
                     <span class="indent">
-                        &lt;/li&gt;
+                        <span class="bold">&lt;/li&gt;</span>
                     </span>
                     <span class="indent">
-                        &lt;li&gt;
+                        <span class="bold">&lt;li&gt;</span>
                     </span>
                     <span class="li-indentl3">
                         Chocolate
                     </span>
                     <span class="indent">
-                        &lt;/li&gt;
+                        <span class="bold">&lt;/li&gt;</span>
                     </span>
                     <span class="indent">
-                        &lt;li>
+                        <span class="bold">&lt;li&gt;</span>
                     </span>
                     <span class="li-indentl3">
                         Strawberry
                     </span>
                     <span class="indent">
-                        &lt;/li&gt;
+                        <span class="bold">&lt;/li&gt;</span>
                     </span>
                     <span class="indent">
-                        &lt;li>
+                        <span class="bold">&lt;li&gt;</span>
                     </span>
                     <span class="li-indentl3">
                         Pistachio
                     </span>
                     <span class="indent">
-                        &lt;/li&gt;
+                        <span class="bold">&lt;/li&gt;</span>
                     </span>
                     <span class="indent">
-                        &lt;li&gt;
+                        <span class="bold">&lt;li&gt;</span>
                     </span>
                     <span class="li-indentl3">
                         Cookies & Cream
                     </span>
                     <span class="indent">
-                        &lt;/li&gt;
+                        <span class="bold">&lt;/li&gt;</span>
                     </span>
-                    <span>
-                        &lt;/ol&gt;
-                    </span>
-                </section>
+                    <span class="bold">&lt;/ol&gt;</span>
+                </div>
             </td>
             <td>
-                h1 {
-                    <br>
-                    <a href="font-size.html">
-                                font-size</a>: 2rem;
-                    <br>
-                    <a href="font-weight.html">
-                            font-weight</a>: 500;
-                    <br>
-                }
+                <span class="bold">h1 {</span>
+                    <div class="indent">
+                        <a href="font-size.html">
+                                    font-size</a>: 2rem;
+                        <br>
+                        <a href="font-weight.html">
+                                font-weight</a>: 500;
+                    </div>
+                <span class="bold">}</span>
                 <br>
                 <br>
-                ol {
-                    <br>
-                    <a href="color.html">
-                                color</a>: red;
-                    <br>
-                    <a href="text-decoration.html">
+                <span class="bold">li {</span>
+                    <div class="indent">
+                        <a href="color.html">
+                            color</a>: red;
+                        <br>
+                        <a href="text-decoration.html">
                         text-decoration</a>: underline;
-                    <br>
-                }
+                    </div>
+                <span class="bold">}</span>
             </td>
         </tr>
     </table>
@@ -146,57 +143,88 @@
                 <p>
                     An "ordered list" is a list that has a specific order. 
                 </p>
+                <br>
                 <p>
                     When we want to make an ordered list on our page, we use the &lt;ol&gt; element.
                 </p>
+                <br>
                 <p>
                     You can use as many &lt;ol&gt; elements as you want per page.
                 </p>
+                <br>
                 <p>
                     The &lt;ol&gt; element needs to be closed by an &lt;/ol&gt; after you have written your custom list.
                 </p>
+                <br>
                 <p>
                     Every item on your list must be enclosed by the &lt;li&gt; element (list item). &lt;li&gt; Before the list item, and &lt;/li&gt; after the list item.
                 </p>
+                <br>
                 <p>
                     Here is an example: 
                 </p>
+                <br>
                 <p>
-                    <span>&lt;ol&gt;</span>
+                    <span class="bold">&lt;ol&gt;</span> 
                     <br>
-                    <span class="li-indentl3">&lt;li&gt;This is list item number 1&lt;/li&gt;</span> 
-                    <br>
-                    <span class="li-indentl3">&lt;li&gt;This is list item number 2&lt;/li&gt;</span> 
-                    <br>
-                    <span>&lt;/ol&gt;</span> 
+                    <p class="li-indentl3"><span class="bold">&lt;li&gt;</span>This is list item number 1<span class="bold">&lt;/li&gt;</span></p> 
+                    <p class="li-indentl3"><span class="bold">&lt;li&gt;</span>This is list item number 2<span class="bold">&lt;/li&gt;</span></p> 
+                    <span class="bold">&lt;/ol&gt;</span> 
                 </p>
                 <hr>
                 <p>
                     You can also choose other variants to order your list. For example, roman numerals or letters (numbers are default).
                 </p>
+                <br>
                 <p>
                     - Inside the &lt;ol&gt;, if you input "type="i"", you will get lowercase roman numerals.
                 </p>
+                <br>
                 <p class="li-indentl3">
-                    &lt;ol type="i"&gt;
+                    &lt;ol <span class="bold">type="i"</span>&gt;
                 </p>
+                <br>
                 <p>
                     - Inside the &lt;ol&gt;, if you input "type="I"", you will get uppercase roman numerals.
                 </p>
+                <br>
                 <p class="li-indentl3">
-                    &lt;ol type="I"&gt;
+                    &lt;ol <span class="bold">type="I"</span>&gt;
                 </p>
+                <br>
                 <p>
                     - Inside the &lt;ol&gt;, if you input "type="a"", you will get lowercase letters.
                 </p>
+                <br>
                 <p class="li-indentl3">
-                    &lt;ol type="a"&gt;
+                    &lt;ol <span class="bold">type="a"</span>&gt;
                 </p>
-                - Inside the &lt;ol&gt;, if you input "type="A"", you will get uppercase letters.
-            </p>
-            <p class="li-indentl3">
-                &lt;ol type="A"&gt;
-            </p>
+                <br>
+                <p>
+                    - Inside the &lt;ol&gt;, if you input "type="A"", you will get uppercase letters.
+                </p>
+                <br>
+                <p class="li-indentl3">
+                    &lt;ol <span class="bold">type="A"</span>&gt;
+                </p>
+                <br>
+                <hr>
+                <p>
+                    You can also choose whichever number you want your list to start counting from.
+                </p>
+                <br>
+                <p>
+                    - Inside the &lt;ol&gt;, if you input "start="32"", your list will start the numbering from number 32, rather than number 1, which is default.
+                </p>
+                <br>
+                <p class="li-indentl3">
+                    &lt;ol <span class="bold">start="32"</span>&gt;
+                </p>
+                <br>
+                <hr>
+                <p>
+                    Want to learn more about the "Ordered list element &lt;ol&gt;"  at Developer.mozilla.org? Click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">here!</a>
+                </p>
             </td>
         </tr>
         <table>
