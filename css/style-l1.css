@@ -42,7 +42,7 @@ a {
     margin: 1.15rem;
     width: 80px;
     height: fit-content;
-    transition-duration: 200ms;
+    transition-duration: 300ms;
 }
 
 .logo:hover {
@@ -228,4 +228,8 @@ h6 {
 .img-l7 {
     max-width: 100%;
     border-radius: 2rem;
+}
+
+.td-img-l7 {
+    padding: 3rem;
 }
