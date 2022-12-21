@@ -9,103 +9,117 @@
 </head>
 <body>
     <header>
-        <nav>
-                <a href="/index.html" class="home">
-                    <img src="/images/home.png" alt="Home button" class="home-icon">
-                </a>
+        <a href="/index.html" class="link-logo">
+            <img src="/images/logo-small.png" alt="Image of cornycode.com logo" class="logo">
+        </a>
+        <nav class="menu">
+            <a href="/index.html" class="button">
+                Home</a>
+            <a href="#h1-vi-us" class="button">
+                Html</a>
+            <a href="#h1-sp-ev" class="button">
+                Css</a>
+            <a href="#h1-ex" class="button">
+                JavaScript</a>
         </nav>
     </header>
-    <h1 class="h1">
-        Paragraph &lt;p&gt;
-    </h1>
-    <table>
-        <tr>
-            <th>
-                Web 
-            </th>
-            <th>
-                Html
-            </th>
-            <th>
-                Css
-            </th>
-        </tr>
-        <tr>
-            <td>
-                <p>
-                    This is a paragraph
-                </p>
-            </td>
-            <td>
-                <div class="element">
-                    <span class="bold">&lt;p&gt;</span>
-                    <p class="indent">This is a paragraph</p> 
-                    <span class="bold">&lt;/p&gt;</span>
-                </div>
-            </td>
-            <td>
-                <span class="bold">p {</span>
-                    <div class="indent">
-                        <a href="font-size.html">
-                            font-size</a>: 1rem;
-                        <br>
-                        <a href="font-weight.html">
-                        font-weight</a>: 400;
+    <main class="main">
+        <table>
+            <tr>
+                <th class="heading">
+                    Paragraph &lt;p&gt;
+                </th>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>
+                    Web 
+                </th>
+                <th>
+                    Html
+                </th>
+                <th>
+                    Css
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        This is a paragraph
+                    </p>
+                </td>
+                <td>
+                    <div class="element">
+                        <span class="bold">&lt;p&gt;</span>
+                        <p class="indent">This is a paragraph</p> 
+                        <span class="bold">&lt;/p&gt;</span>
                     </div>
-                <span class="bold">}</span>
-            </td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <th>
-                Description
-            </th>
-        </tr>
-        <tr>
-            <td>
-                <p>
-                    When we want to write a paragraph on our page, we use the &lt;p&gt; element.
-                </p>
-                <br>
-                <p>
-                    You can use as many &lt;p&gt; elements as you want per page.
-                </p>
-                <br>
-                <p>
-                    The &lt;p&gt; element needs to be closed by a &lt;/p&gt; after you have written your custom paragraph. 
+                </td>
+                <td>
+                    <span class="bold">p {</span>
+                        <div class="indent">
+                            <a href="font-size.html">
+                                font-size</a>: 1rem;
+                            <br>
+                            <a href="font-weight.html">
+                            font-weight</a>: 400;
+                        </div>
+                    <span class="bold">}</span>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>
+                    Description
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        When we want to write a paragraph on our page, we use the &lt;p&gt; element.
+                    </p>
                     <br>
-                </p>
-                <br>
-                <p>
-                    Here is an example: 
-                </p>
-                <br>
-                <span class="bold">&lt;p&gt;</span>
-                <p class="indent">This is a paragraph that I have written</p> 
-                <span class="bold">&lt;/p&gt;</span>
-                <br>
-                <br>
-                <span class="bold">&lt;p&gt;</span>
-                <p class="indent">This is another paragraph. I really like to write paragraphs</p> 
-                <span class="bold">&lt;/p&gt;</span>
-                <br>
-                <br>
-                <hr>
-                <p>
-                    Want to learn more about the "Paragraph element &lt;p&gt;"  at Developer.mozilla.org? Click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">here!</a>
-                </p>
-            </td>
-        </tr>
-    </table>
-    <table>
-        <th>
-            Video
-        </th>
-        <tr>
-
-        </tr>
-    </table>
+                    <p>
+                        You can use as many &lt;p&gt; elements as you want per page.
+                    </p>
+                    <br>
+                    <p>
+                        The &lt;p&gt; element needs to be closed by a &lt;/p&gt; after you have written your custom paragraph. 
+                        <br>
+                    </p>
+                    <br>
+                    <p>
+                        Here is an example: 
+                    </p>
+                    <br>
+                    <span class="bold">&lt;p&gt;</span>
+                    <p class="indent">This is a paragraph that I have written</p> 
+                    <span class="bold">&lt;/p&gt;</span>
+                    <br>
+                    <br>
+                    <span class="bold">&lt;p&gt;</span>
+                    <p class="indent">This is another paragraph. I really like to write paragraphs</p> 
+                    <span class="bold">&lt;/p&gt;</span>
+                    <br>
+                    <br>
+                    <hr>
+                    <p class="learn_more">
+                        Want to learn more about the "Paragraph element &lt;p&gt;"  at Developer.mozilla.org? Click <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">here!</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <th>
+                Video
+            </th>
+            <tr>
+    
+            </tr>
+        </table>
+    </main>
     <footer>
         &copy; Copyright
     </footer>
