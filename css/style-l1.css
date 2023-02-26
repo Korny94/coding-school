@@ -68,9 +68,7 @@ main {
 
 .button:hover {
     font-weight: 900;
-    transform: scale(1.1);
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: .8rem;
+    transform: scale(1.2);
     text-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -133,6 +131,7 @@ p {
 
 .indent {
     margin-left: 2.5rem;
+    max-width: 300px;
     padding: 0;
 }
 
@@ -221,6 +220,10 @@ h6 {
     font-weight: 900;
 }
 
+.noBold {
+    font-weight: 500;
+}
+
 
 
 
@@ -234,4 +237,44 @@ h6 {
 
 .td-img-l7 {
     padding: 3rem;
+}
+
+
+
+        /* --- LESSON8-table.HTML --- */
+
+.table-l8 td {
+    border: 1px solid black;
+    background-color: white;
+    padding: 1rem;
+}
+
+.table-l8 th {
+    border: 3px dashed rgb(0, 0, 0);
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(255, 120, 120);
+}
+
+
+
+
+
+        /* --- LESSON8-table.HTML --- */
+
+.div1-l9 {
+    max-width: 300px;
+    padding: .5rem;
+    border: 3px solid red;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+.div2-l9 {
+    max-width: 300px;
+    padding: .5rem;
+    border: 3px dotted blue;
+    background-color: lightyellow;
+    text-align: right;
 }
