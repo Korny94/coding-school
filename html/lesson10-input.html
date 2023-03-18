@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cursor Background Color</title>
+	<style>
+
+details {
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+summary {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+}
+
+img {
+    transform: scale(.2);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #666;
+}
+
+a:focus {
+    color: red;
+}
+	</style>
+</head>
+<iframe src="https://liverpool.no"></iframe>
+<body>
+    <a href="https://www.google.com">Link 1</a>
+<p>Link 2</p>
+<p>Link 3</p>
+    <a href="https://www.google.com" accesskey="g" title="Shortcut: alt + g">Google</a>
+    <h1 contenteditable="true">Edit this heading</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" autocomplete="username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" autocomplete="current-password">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    <figure>
+        <img src="example-image.jpg" alt="Example Image" style="border: 1px solid black; box-shadow: 2px 2px 5px grey;">
+        <figcaption>This is an example image.</figcaption>
+      </figure>
+    <details>
+        <summary><img src="/images/hamburger-icon.png"></summary>
+        <ul>
+          <li><a href="#">Menu Item 1</a></li>
+          <li><a href="#">Menu Item 2</a></li>
+          <li><a href="#">Menu Item 3</a></li>
+        </ul>
+    </details>
+    <label for="progress">Progress:</label>
+<progress id="progress" value="0" max="100"></progress>
+<button onclick="updateProgress()">Update Progress</button>
+<label for="meter">Meter:</label>
+<meter id="meter" value="0" min="0" max="100"></meter>
+<button onclick="updateMeter()">Update Meter</button>
+
+<script>
+function updateMeter() {
+  let meter = document.getElementById("meter");
+  let currentValue = meter.value;
+  let newValue = currentValue + 10;
+  if (newValue > meter.max) {
+    newValue = meter.max;
+  }
+  meter.value = newValue;
+}
+
+function updateProgress() {
+  let progress = document.getElementById("progress");
+  let currentValue = progress.value;
+  let newValue = currentValue + 10;
+  if (newValue > progress.max) {
+    newValue = progress.max;
+  }
+  progress.value = newValue;
+}
+</script>
+</body>
+</html>
